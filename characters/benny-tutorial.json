@@ -1,0 +1,103 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				10,
+				-12
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down tutorial",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				91,
+				6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left tutorial",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-40,
+				16
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right tutorial",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				52,
+				30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up tutorial",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"offsets": [
+				39,
+				17
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "hey",
+			"loop": false,
+			"name": "hey tutorial"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/benny",
+	"position": [
+		0,
+		110
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "benny",
+	"gameover_character": null,
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colour": -15388009,
+	"camera_position": [
+		30,
+		70
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 6.1,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

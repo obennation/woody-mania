@@ -1,0 +1,20 @@
+{
+    "tabs": [
+        {
+            "title": "Story Mode",
+            "fromWeeks": ["tutorial", "weekwoody"]
+        },
+        {
+            "title": "Erect Mixes",
+            "songs": [
+                "woody-erect"
+            ]
+        },
+        {
+            "title": "Extras",
+            "songs": [
+                "flushed"
+            ]
+        }
+    ]
+}

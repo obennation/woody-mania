@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Tutorial", "benny", [21, 50, 151]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Aprendendo com o Benny!",
+	"weekBefore": "",
+	"weekName": "Tutorial",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

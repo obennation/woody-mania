@@ -1,0 +1,18 @@
+{
+    "songName": "woody-erect",
+    "displayName": "Woody Erect",
+
+    "composers": ["gi", "Jooj Dumwell"],
+    "charters": ["bennation"],
+
+    "difficulties": ["Erect", "Nightmare"],
+
+    "freeplayColor": "#FFFFFF",
+    "freeplayIcon": "benny",
+
+    "portrait": "benny",
+    "freeplayBG": "woodycity",
+
+    "portraitX": 500,
+	"portraitY": -200
+}

@@ -1,0 +1,18 @@
+{
+    "songName": "starry-night",
+    "displayName": "Starry Night",
+
+    "composers": ["bennation"],
+    "charters": ["bennation"],
+
+    "difficulties": ["Easy", "Normal", "Hard"],
+
+    "freeplayColor": "#FFFFFF",
+    "freeplayIcon": "benny",
+
+    "portrait": "benny-casaco",
+    "freeplayBG": "starry-night",
+
+    "portraitX": 478,
+	"portraitY": -200
+}

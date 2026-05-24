@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Upapayuma", "benny", [21, 50, 151]],
+		["Woody", "benny", [21, 50, 151]],
+		["Roots", "benny", [21, 50, 151]],
+		["Starry Night", "benny", [21, 50, 151]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "ww",
+
+	"storyName": "Benny",
+	"weekBefore": "tutorial",
+	"weekName": "Week Woody",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

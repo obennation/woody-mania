@@ -1,0 +1,9 @@
+{
+    "name": "Woody Mania",
+    "description": "Jogue contra pessoas da cidade de Woody City!",
+    "global": true,
+
+    "windowTitle": "Woody Mania",
+    "iconFile": "UI/icon64",
+    "defaultTransition": "swipe"
+}
