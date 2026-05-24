@@ -1,82 +1,134 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"anim": "idle",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "idle bf",
+			"anim": "idle",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "idle bf"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				8,
 				9
 			],
-			"anim": "hey",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "hey bf",
+			"anim": "hey",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "hey bf"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				0,
 				-11
 			],
-			"anim": "singDOWN",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "down bf",
+			"anim": "singDOWN",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "down bf"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				25,
 				14
 			],
-			"anim": "singLEFT",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "left bf",
+			"anim": "singLEFT",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "left bf"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-32,
 				20
 			],
-			"anim": "singRIGHT",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "right bf",
+			"anim": "singRIGHT",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "right bf"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-41,
 				57
 			],
-			"anim": "singUP",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "up bf",
+			"anim": "singUP",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "up bf"
+		},
+		{
+			"offsets": [
+				25,
+				14
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "left bf alt"
+		},
+		{
+			"offsets": [
+				-28,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "right bf alt"
+		},
+		{
+			"offsets": [
+				-41,
+				57
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "up bf alt"
+		},
+		{
+			"offsets": [
+				0,
+				-11
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "down bf alt"
 		}
 	],
 	"no_antialiasing": false,
