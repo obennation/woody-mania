@@ -1,0 +1,18 @@
+{
+    "songName": "xbox",
+    "displayName": "XBOX",
+
+    "composers": ["gi"],
+    "charters": ["bennation"],
+
+    "difficulties": ["Easy", "Normal", "Hard"],
+
+    "freeplayColor": "#FFFFFF",
+    "freeplayIcon": "benny",
+
+    "portrait": "benny",
+    "freeplayBG": "woodycity",
+
+    "portraitX": 500,
+	"portraitY": -200
+}

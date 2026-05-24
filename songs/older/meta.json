@@ -1,0 +1,18 @@
+{
+    "songName": "older",
+    "displayName": "Older",
+
+    "composers": ["gi"],
+    "charters": ["bennation"],
+
+    "difficulties": ["Easy", "Normal", "Hard"],
+
+    "freeplayColor": "#FFFFFF",
+    "freeplayIcon": "benny-older",
+
+    "portrait": "benny-older",
+    "freeplayBG": "older",
+
+    "portraitX": 500,
+	"portraitY": -175
+}
