@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-2,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				80,
+				-12
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				31,
+				2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-40,
+				16
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				52,
+				27
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up b side",
+			"indices": [],
+			"flipX": false
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/benny-b-side",
+	"position": [
+		0,
+		110
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "benny-bsides",
+	"gameover_character": null,
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colour": -16443351,
+	"camera_position": [
+		30,
+		70
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 6.1,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

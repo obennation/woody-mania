@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle bf b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				0,
+				-11
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down bf b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				24,
+				14
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left bf b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-19,
+				20
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right bf b side",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-31,
+				57
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up bf b side",
+			"indices": [],
+			"flipX": false
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf-wm-bside",
+	"position": [
+		10,
+		220
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "bf-bsides",
+	"gameover_character": null,
+	"vslice_sustains": true,
+	"flip_x": true,
+	"healthbar_colour": -1545525,
+	"camera_position": [
+		50,
+		0
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}
