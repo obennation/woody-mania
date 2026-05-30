@@ -1,0 +1,15 @@
+{
+    "defaultZoom": 0.7,
+    "isPixelStage": false,
+    "boyfriend": [ 1140, 350 ],
+    "girlfriend": [ 575, 390 ],
+    "opponent": [ 300, 350 ],
+    "hide_girlfriend": false,
+    "camera_boyfriend": [ -50, 0 ],
+    "camera_opponent": [ 0, 0 ],
+    "camera_girlfriend": [ 0, 0 ],
+    "camera_speed": 1,
+    "dadZIndex": 3,
+    "bfZIndex": 3,
+    "gfZIndex": 3
+}
