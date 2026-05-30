@@ -10,9 +10,9 @@
     "freeplayColor": "#FFFFFF",
     "freeplayIcon": "benny-bsides",
 
-    "portrait": "benny",
-    "freeplayBG": "woodycity",
+    "portrait": "benny-xbox",
+    "freeplayBG": "xbox",
 
-    "portraitX": 500,
-	"portraitY": -200
+    "portraitX": 300,
+	"portraitY": -225
 }
