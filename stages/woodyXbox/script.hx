@@ -20,14 +20,14 @@ function onLoad()
 
     montanhas = new FlxSprite(-525, 40).loadGraphic(Paths.image("extras/xbox/montanhas"));
     montanhas.scale.set(0.8, 0.8);
-    montanhas.alpha = 0.95;
+    montanhas.alpha = 0.99;
     montanhas.scrollFactor.set(0.85, 0.85);
 	add(montanhas);
 
     agua = new BGSprite('extras/xbox/agua', 167, 725, 0.9, 0.9, ['agua']);
 	agua.setGraphicSize(Std.int(agua.width * 0.8));
     agua.scrollFactor.set(0.85, 0.85);
-    agua.alpha = 0.85;
+    agua.alpha = 0.75;
 	add(agua);
 
     predio = new FlxSprite(-778, 45).loadGraphic(Paths.image("extras/xbox/predios"));
@@ -51,6 +51,7 @@ function onLoad()
 	ough.scrollFactor.set(0, 0);
 	ough.screenCenter();
 	ough.zIndex = 120;
+	ough.alpha = 0.3;
     add(ough);
 }
 
