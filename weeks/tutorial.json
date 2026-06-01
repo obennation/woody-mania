@@ -8,9 +8,9 @@
 		"bf",
 		"gf"
 	],
-	"weekBackground": "stage",
+	"weekBackground": "tutorial",
 
-	"storyName": "Aprendendo com o Benny!",
+	"storyName": "Aprendendo o Jogo",
 	"weekBefore": "",
 	"weekName": "Tutorial",
 	"startUnlocked": true,

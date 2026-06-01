@@ -2,7 +2,7 @@
     "tabs": [
         {
             "title": "Story Mode",
-            "fromWeeks": ["tutorial", "weekwoody"]
+            "fromWeeks": ["tutorial", "week1"]
         },
         {
             "title": "Erect Mixes",
