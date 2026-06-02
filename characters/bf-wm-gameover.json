@@ -1,0 +1,66 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-4,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"flipX": false,
+			"indices": [],
+			"name": "gameover1"
+		},
+		{
+			"offsets": [
+				-7,
+				67
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"flipX": false,
+			"indices": [],
+			"name": "gameover3"
+		},
+		{
+			"offsets": [
+				-7,
+				-10
+			],
+			"flipY": false,
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"flipX": false,
+			"indices": [],
+			"name": "gameover2"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf-gameover",
+	"position": [
+		-150,
+		180
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "bf-wm",
+	"gameover_character": null,
+	"vslice_sustains": true,
+	"flip_x": true,
+	"healthbar_colour": -14517541,
+	"camera_position": [
+		-160,
+		80
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

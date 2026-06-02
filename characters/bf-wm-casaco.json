@@ -1,82 +1,82 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-41,
 				57
 			],
-			"anim": "singUP",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "up bf casaco",
+			"anim": "singUP",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "up bf casaco"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				0,
 				-11
 			],
-			"anim": "singDOWN",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "down bf casaco",
+			"anim": "singDOWN",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "down bf casaco"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				25,
 				14
 			],
-			"anim": "singLEFT",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "left bf casaco",
+			"anim": "singLEFT",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "left bf casaco"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-32,
 				20
 			],
-			"anim": "singRIGHT",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "right bf casaco",
+			"anim": "singRIGHT",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "right bf casaco"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"anim": "idle",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "idle bf casaco",
+			"anim": "idle",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "idle bf casaco"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				8,
 				9
 			],
-			"anim": "hey",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "hey bf casaco",
+			"anim": "hey",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "hey bf casaco"
 		}
 	],
 	"no_antialiasing": false,
@@ -90,7 +90,7 @@
 	"scalableOffsets": false,
 	"gameover_confirm_sound": null,
 	"healthicon": "bf-wm",
-	"gameover_character": null,
+	"gameover_character": "bf-wm-gameover",
 	"vslice_sustains": true,
 	"flip_x": true,
 	"healthbar_colour": -14517541,

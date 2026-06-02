@@ -1,69 +1,69 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"anim": "idle",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "idle bf b side",
+			"anim": "idle",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "idle bf b side"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				0,
 				-11
 			],
-			"anim": "singDOWN",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "down bf b side",
+			"anim": "singDOWN",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "down bf b side"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				24,
 				14
 			],
-			"anim": "singLEFT",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "left bf b side",
+			"anim": "singLEFT",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "left bf b side"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-19,
 				20
 			],
-			"anim": "singRIGHT",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "right bf b side",
+			"anim": "singRIGHT",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "right bf b side"
 		},
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-31,
 				57
 			],
-			"anim": "singUP",
+			"flipY": false,
+			"loop": false,
 			"fps": 24,
-			"name": "up bf b side",
+			"anim": "singUP",
+			"flipX": false,
 			"indices": [],
-			"flipX": false
+			"name": "up bf b side"
 		}
 	],
 	"no_antialiasing": false,
@@ -77,7 +77,7 @@
 	"scalableOffsets": false,
 	"gameover_confirm_sound": null,
 	"healthicon": "bf-bsides",
-	"gameover_character": null,
+	"gameover_character": "bf-bsides-gameover",
 	"vslice_sustains": true,
 	"flip_x": true,
 	"healthbar_colour": -1545525,
