@@ -15,6 +15,7 @@ var gramas:FlxSprite;
 var arvore2:FlxSprite;
 var arvore:FlxSprite;
 var construcoes:FlxSprite;
+var postes:FlxSprite;
 var estrada:FlxSprite;
 
 var ough:FlxSprite;
@@ -24,6 +25,11 @@ var ough3:FlxSprite;
 var gi:FlxSprite;
 var giCoat:FlxSprite;
 var pipoca:FlxSprite;
+
+var crowd:FlxSprite;
+
+var spotlight:FlxSprite;
+var spotlight2:FlxSprite;
 
 var songName:String = Paths.sanitize(PlayState.SONG.song);
 
@@ -123,6 +129,36 @@ function onLoad()
 	pipoca.antialiasing = true;
 	add(pipoca);
 
+    crowd = new BGSprite('week-woody/crowd', -1800, 600, 0.4, 0.4, ['crowd']);
+    crowd.scale.set(0.8, 0.8);
+    crowd.alpha = 0.9;
+    crowd.scrollFactor.set(0.9, 0.9);
+    crowd.color = 0xFFE5E5E5;
+    crowd.zIndex = 105;
+
+    spotlight = new FlxSprite(-625, -300).loadGraphic(Paths.image("week-woody/spotlight"));
+    spotlight.scale.set(0.8, 0.8);
+    spotlight.scrollFactor.set(1, 1);
+    spotlight.blend = BlendMode.ADD;
+    spotlight.zIndex = 102;
+    spotlight.visible = false;
+    add(spotlight);
+
+    spotlight2 = new FlxSprite(355, -300).loadGraphic(Paths.image("week-woody/spotlight"));
+    spotlight2.scale.set(0.8, 0.8);
+    spotlight2.scrollFactor.set(1, 1);
+    spotlight2.blend = BlendMode.ADD;
+    spotlight2.zIndex = 102;
+    spotlight2.visible = false;
+    add(spotlight2);
+
+    black = new BGSprite(null, -2120, -4905, 0, 0);
+    black.scale.set(5000, 5000);
+    black.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), 0xFF000000);
+    black.alpha = 0;
+    black.zIndex = 3;
+    add(black);
+
     ough = new FlxSprite().loadGraphic(Paths.image('week-woody/filter'));
 	ough.scale.set(3, 5);
 	ough.scrollFactor.set(0, 0);
@@ -160,6 +196,8 @@ function onLoad()
 
         remove(ough);
         add(ough2);
+
+        add(crowd);
     }
 
     if (songName == 'starry-night')
@@ -175,6 +213,8 @@ function onLoad()
 
         remove(gi);
         add(giCoat);
+
+        add(crowd);
     }
 }
 
@@ -229,6 +269,8 @@ function onCreatePost()
 
         giCoat.shader = makeCharShader(-30, -10, -5, 0);
         pipoca.shader = makeCharShader(-30, -10, -5, 0);
+
+        crowd.shader = makeCharShader(-30, -10, -5, 0);
     }
     snapCamToPos(750, 580);
 }
@@ -269,7 +311,9 @@ function onEvent(name, v1, v2)
                         [arvore, 0.65, 0xFFD9D9D9],
                         [construcoes, 1, 0xFFD9D9D9],
                         [postes, 0.85, 0xFFD9D9D9],
-                        [estrada, 1, 0xFFD9D9D9]
+                        [estrada, 1, 0xFFD9D9D9],
+
+                        [crowd, 0.9, 0xFFE5E5E5]
                     ];
 
                     for (data in sprites)
@@ -288,6 +332,53 @@ function onEvent(name, v1, v2)
                     FlxTween.tween(ough3, {alpha: 0.4}, 14, {ease: FlxEase.linear});
                 case 'overlayBgAlpha':
                     FlxTween.tween(ough3, {alpha: 0}, 4, {ease: FlxEase.linear});
+                case 'rootsOverlay':
+                    FlxTween.tween(ough3, {alpha: 0}, 1, {ease: FlxEase.quadOut});
+                    FlxTween.tween(black, {alpha: 0.75}, 1, {ease: FlxEase.quadOut});
+                    FlxTween.tween(crowd, {alpha: 0.5}, 1, {ease: FlxEase.quadOut});
+                case 'removeRootsOverlay':
+                    FlxTween.tween(ough3, {alpha: 0.6}, 1, {ease: FlxEase.quadOut});
+                    FlxTween.tween(black, {alpha: 0}, 1, {ease: FlxEase.quadOut});
+                    FlxTween.tween(crowd, {alpha: 0.9}, 1, {ease: FlxEase.quadOut});
+                case "spotlight-left":
+                    spotlight.visible = true;
+                    FlxTween.cancelTweensOf(spotlight);
+                    FlxTween.tween(spotlight, {alpha: 1}, 0.5, {ease: FlxEase.quadOut});
+                case "spotlight-right":
+                    spotlight2.visible = true;
+                    FlxTween.cancelTweensOf(spotlight2);
+                    FlxTween.tween(spotlight2, {alpha: 1}, 0.5, {ease: FlxEase.quadOut});
+                case "spotlight-offleft":
+                    FlxTween.cancelTweensOf(spotlight);
+                    FlxTween.tween(spotlight, {alpha: 0.5}, 0.5, {
+                        ease: FlxEase.quadOut,
+                        onComplete: function(twn)
+                        {
+                            spotlight.alpha = 0.5;
+                        }
+                    });
+                case "spotlight-offright":
+                    FlxTween.cancelTweensOf(spotlight2);
+                    FlxTween.tween(spotlight2, {alpha: 0.5}, 0.5, {
+                        ease: FlxEase.quadOut,
+                        onComplete: function(twn)
+                        {
+                            spotlight2.alpha = 0.5;
+                        }
+                    });
+                case "spotlight-off":
+                    FlxTween.tween(spotlight, {alpha: 0}, 0.5, {
+                        onComplete: function(twn)
+                        {
+                            spotlight.visible = false;
+                        }
+                    });
+                    FlxTween.tween(spotlight2, {alpha: 0}, 0.5, {
+                        onComplete: function(twn)
+                        {
+                            spotlight2.visible = false;
+                        }
+                    });
             }
     }
 }
@@ -296,10 +387,12 @@ function onCountdownTick(){
     gi.animation.play("idle");
     giCoat.animation.play("idle");
     pipoca.animation.play("idle");
+    crowd.dance(true);
 }
 
 function onBeatHit(){
     gi.animation.play("idle");
     giCoat.animation.play("idle");
     pipoca.animation.play("idle");
+    crowd.dance(true);
 }

@@ -2183,15 +2183,71 @@
 						"Set Cam Zoom",
 						"0.8",
 						""
+					],
+					[
+						"Mania",
+						"rootsOverlay",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-right",
+						""
+					],
+					[
+						"Camera Flash",
+						"",
+						""
 					]
 				]
 			],
+			[
+				181578.947368421,
+				[
+					[
+						"Mania",
+						"spotlight-left",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-offright",
+						""
+					]
+				]
+			],
+			[
+				183157.894736842,
+				[
+					[
+						"Mania",
+						"spotlight-offleft",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-right",
+						""
+					]
+				]
+			],
+			
 			[
 				184736.842105263,
 				[
 					[
 						"Set Cam Zoom",
 						"0.85",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-left",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-offright",
 						""
 					]
 				]
@@ -2203,6 +2259,16 @@
 						"Set Cam Zoom",
 						"0.8",
 						""
+					],
+					[
+						"Mania",
+						"spotlight-offleft",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-right",
+						""
 					]
 				]
 			],
@@ -2212,6 +2278,11 @@
 					[
 						"Set Cam Zoom",
 						"0.9",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-offright",
 						""
 					]
 				]
@@ -2228,6 +2299,26 @@
 						"Set Cam Zoom",
 						"0.8",
 						""
+					],
+					[
+						"Mania",
+						"spotlight-left",
+						""
+					]
+				]
+			],
+			[
+				195789.47368421,
+				[
+					[
+						"Mania",
+						"spotlight-offleft",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-right",
+						""
 					]
 				]
 			],
@@ -2237,6 +2328,16 @@
 					[
 						"Set Cam Zoom",
 						"0.75",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-left",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-offright",
 						""
 					]
 				]
@@ -2248,6 +2349,16 @@
 						"Set Cam Zoom",
 						"0.7",
 						""
+					],
+					[
+						"Mania",
+						"spotlight-offleft",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-right",
+						""
 					]
 				]
 			],
@@ -2258,6 +2369,16 @@
 						"Set Cam Zoom",
 						"0.8",
 						""
+					],
+					[
+						"Mania",
+						"spotlight-left",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-offright",
+						""
 					]
 				]
 			],
@@ -2267,6 +2388,16 @@
 					[
 						"Set Cam Zoom",
 						"0.9",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-offleft",
+						""
+					],
+					[
+						"Mania",
+						"spotlight-right",
 						""
 					]
 				]
@@ -2288,6 +2419,16 @@
 						"Camera Follow Pos",
 						"300",
 						"600"
+					],
+					[
+						"Mania",
+						"spotlight-off",
+						""
+					],
+					[
+						"Mania",
+						"removeRootsOverlay",
+						""
 					]
 				]
 			],

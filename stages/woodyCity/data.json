@@ -9,7 +9,7 @@
     "camera_opponent": [ 0, 0 ],
     "camera_girlfriend": [ 0, 0 ],
     "camera_speed": 1,
-    "dadZIndex": 3,
-    "bfZIndex": 3,
-    "gfZIndex": 3
+    "dadZIndex": 4,
+    "bfZIndex": 4,
+    "gfZIndex": 2
 }
