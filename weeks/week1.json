@@ -13,7 +13,7 @@
 	],
 	"weekBackground": "ww",
 
-	"storyName": "Bem-vindos à Woody City",
+	"storyName": "storymode.week1",
 	"weekBefore": "tutorial",
 	"weekName": "Episódio 1",
 	"startUnlocked": true,

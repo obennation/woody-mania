@@ -1,11 +1,11 @@
 {
     "tabs": [
         {
-            "title": "Story Mode",
+            "title": "freeplay.storymode",
             "fromWeeks": ["tutorial", "week1"]
         },
         {
-            "title": "Erect Mixes",
+            "title": "freeplay.erectmixes",
             "songs": [
                 "woody-erect"
             ]

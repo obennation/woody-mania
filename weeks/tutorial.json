@@ -10,7 +10,7 @@
 	],
 	"weekBackground": "tutorial",
 
-	"storyName": "Aprendendo o Jogo",
+	"storyName": "storymode.tutorial",
 	"weekBefore": "",
 	"weekName": "Tutorial",
 	"startUnlocked": true,
