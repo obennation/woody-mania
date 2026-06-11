@@ -5,7 +5,6 @@ import funkin.objects.Bopper;
 var night:FlxSprite;
 
 var ceuNoite:FlxSprite;
-var estrela:FlxSprite;
 var ceuTarde:FlxSprite;
 var ceu:FlxSprite;
 
@@ -37,28 +36,23 @@ function onLoad()
 {
     night = new BGSprite(null, -2120, -4905, 0, 0);
     night.scale.set(5000, 5000);
-    night.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), 0xFF302F32);
+    night.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), 0xFF131215);
     night.alpha = 0;
     add(night);
 
-    ceuNoite = new FlxSprite(-1836, -623).loadGraphic(Paths.image("week-woody/ceu-noite"));
+    ceuNoite = new FlxSprite(-1936, -750).loadGraphic(Paths.image("week-woody/ceu-noite"));
     ceuNoite.scale.set(0.8, 0.8);
-    ceuNoite.scrollFactor.set(0.95, 0.95);
+    ceuNoite.scrollFactor.set(0.1, 0.2);
 	add(ceuNoite);
 
-    estrela = new FlxSprite(-896, -1312).loadGraphic(Paths.image("week-woody/estrela"));
-    estrela.scrollFactor.set(0.95, 0.95);
-    estrela.alpha = 0;
-	add(estrela);
-
-    ceuTarde = new FlxSprite(-1836, -623).loadGraphic(Paths.image("week-woody/ceu-tarde"));
+    ceuTarde = new FlxSprite(-1936, -750).loadGraphic(Paths.image("week-woody/ceu-tarde"));
     ceuTarde.scale.set(0.8, 0.8);
-    ceuTarde.scrollFactor.set(0.95, 0.95);
+    ceuTarde.scrollFactor.set(0.1, 0.2);
 	add(ceuTarde);
 
-    ceu = new FlxSprite(-1836, -623).loadGraphic(Paths.image("week-woody/ceu"));
+    ceu = new FlxSprite(-1936, -750).loadGraphic(Paths.image("week-woody/ceu"));
     ceu.scale.set(0.8, 0.8);
-    ceu.scrollFactor.set(0.95, 0.95);
+    ceu.scrollFactor.set(0.1, 0.2);
 	add(ceu);
 
     montanhas = new FlxSprite(-2215, -250).loadGraphic(Paths.image("week-woody/montanhas"));
@@ -205,7 +199,6 @@ function onLoad()
         ceuTarde.alpha = 0;
         ceu.alpha = 0;
         night.alpha = 1;
-        estrela.alpha = 1;
 
         remove(ough);
 

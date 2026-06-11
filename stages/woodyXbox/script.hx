@@ -15,7 +15,7 @@ function onLoad()
 {
     ceuNoite = new FlxSprite(-1410, -379).loadGraphic(Paths.image("week-woody/ceu-noite"));
     ceuNoite.scale.set(0.85, 0.85);
-    ceuNoite.scrollFactor.set(0.95, 0.95);
+    ceuNoite.scrollFactor.set(0.1, 0.2);
 	add(ceuNoite);
 
     montanhas = new FlxSprite(-525, 40).loadGraphic(Paths.image("extras/xbox/montanhas"));
