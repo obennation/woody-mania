@@ -1,67 +1,69 @@
 {
 	"song": {
 		"player1": "bf-wm",
-		"gfVersion": "gf-wm",
+		"events": [],
+		"player2": "benny-tutorial",
 		"notes": [
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						6000,
-						1,
+						5,
 						0,
 						""
 					],
 					[
 						4800,
-						0,
+						4,
 						0,
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						8400,
-						3,
+						7,
 						0,
 						""
 					],
 					[
 						7200,
-						2,
+						6,
 						0,
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						10800,
@@ -76,13 +78,13 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						13200,
@@ -95,66 +97,66 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						16200,
-						2,
+						6,
 						0
 					],
 					[
 						15600,
-						2,
+						6,
 						0
 					],
 					[
 						15000,
-						0,
+						4,
 						0
 					],
 					[
 						14400,
-						0,
+						4,
 						0
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						18000,
-						3,
+						7,
 						0
 					],
 					[
 						17400,
-						0,
+						4,
 						0
 					],
 					[
 						16800,
-						0,
+						4,
 						0
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						19200,
@@ -185,13 +187,13 @@
 						true
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						23400,
@@ -220,91 +222,91 @@
 						true
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						25800,
-						3,
+						7,
 						0,
 						""
 					],
 					[
 						25200,
-						1,
+						5,
 						0,
 						""
 					],
 					[
 						24900,
-						2,
+						6,
 						0,
 						""
 					],
 					[
 						24600,
-						2,
+						6,
 						0,
 						""
 					],
 					[
 						24000,
-						0,
+						4,
 						0,
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						28200,
-						3,
+						7,
 						0,
 						""
 					],
 					[
 						27600,
-						1,
+						5,
 						0,
 						""
 					],
 					[
 						27300,
-						2,
+						6,
 						0,
 						""
 					],
 					[
 						27000,
-						2,
+						6,
 						0,
 						""
 					],
 					[
 						26400,
-						0,
+						4,
 						0,
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						30300,
@@ -343,13 +345,13 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						33000,
@@ -388,13 +390,13 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						35400,
@@ -451,13 +453,13 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						37650,
@@ -514,13 +516,13 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						40200,
@@ -565,13 +567,13 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						42900,
@@ -609,13 +611,13 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						43200,
@@ -623,98 +625,105 @@
 						450
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
-			},
-			{
-				"sectionNotes": [
-					[
-						49200,
-						1,
-						0,
-						""
-					],
-					[
-						48000,
-						0,
-						0,
-						""
-					]
-				],
-				"lengthInSteps": 16,
-				"altAnim": null,
-				"mustHitSection": false,
-				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
 				"sectionBeats": 4,
 				"sectionNotes": [
 					[
+						49200,
+						5,
+						0,
+						""
+					],
+					[
+						48000,
+						4,
+						0,
+						""
+					]
+				],
+				"altAnim": null,
+				"bpm": 0,
+				"changeBPM": null,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
 						52050,
-						7,
+						3,
 						0,
 						""
 					],
 					[
 						51900,
-						4,
+						0,
 						0,
 						""
 					],
 					[
 						52650,
-						7,
+						3,
 						0,
 						""
 					],
 					[
 						52500,
-						4,
+						0,
 						0,
 						""
 					],
 					[
 						52350,
-						7,
+						3,
 						0,
 						""
 					],
 					[
 						52200,
-						4,
+						0,
 						0,
 						""
 					],
 					[
 						51600,
-						3,
+						7,
 						0
 					],
 					[
 						50400,
-						2,
+						6,
 						0
+					],
+					[
+						51750,
+						3,
+						0,
+						"",
+						true
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						54900,
@@ -771,13 +780,13 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						56400,
@@ -792,75 +801,85 @@
 						""
 					]
 				],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": false,
+				"bpm": 0,
 				"changeBPM": null,
-				"bpm": 0
+				"mustHitSection": false
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": false,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": false,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
 				"altAnim": null,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": false,
-				"bpm": 0
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"altAnim": false,
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
 				"altAnim": false,
 				"mustHitSection": true,
-				"changeBPM": false,
-				"bpm": 0
-			},
-			{
-				"sectionNotes": [],
 				"lengthInSteps": 16,
-				"altAnim": false,
-				"mustHitSection": true,
-				"changeBPM": false,
-				"bpm": 100
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"gfSection": false,
+				"bpm": 100,
+				"changeBPM": false
 			},
 			{
 				"sectionBeats": 4,
@@ -886,9 +905,7 @@
 			},
 			{
 				"gfSection": false,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"typeOfSection": 0,
 				"sectionNotes": [],
 				"bpm": 100,
 				"sectionBeats": 4,
@@ -896,16 +913,20 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "benny-tutorial",
-		"events": [],
+		"gfVersion": "gf-wm",
 		"player3": null,
 		"keys": 4,
+		"arrowSkins": [
+			"default",
+			"default"
+		],
 		"song": "Tutorial",
-		"needsVoices": true,
 		"stage": "woodyCity",
-		"lanes": 2,
-		"speed": 1.7,
+		"needsVoices": true,
+		"format": "nmv2",
+		"bpm": 100,
 		"gf": "gf-wm",
-		"bpm": 100
+		"speed": 1.7,
+		"lanes": 2
 	}
 }
