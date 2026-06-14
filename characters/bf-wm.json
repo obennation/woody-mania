@@ -129,6 +129,58 @@
 			"name": "down bf alt",
 			"indices": [],
 			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				0,
+				-18
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "down bf miss",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				21,
+				13
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "left bf miss",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-33,
+				20
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "right bf miss",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-35,
+				57
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "up bf miss",
+			"indices": [],
+			"flipX": false
 		}
 	],
 	"no_antialiasing": false,

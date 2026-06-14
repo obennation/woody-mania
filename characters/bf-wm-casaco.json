@@ -1,82 +1,134 @@
 {
 	"animations": [
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-41,
 				57
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"flipX": false,
+			"fps": 24,
+			"name": "up bf casaco",
 			"indices": [],
-			"name": "up bf casaco"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
 				-11
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"flipX": false,
+			"fps": 24,
+			"name": "down bf casaco",
 			"indices": [],
-			"name": "down bf casaco"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				25,
 				14
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"flipX": false,
+			"fps": 24,
+			"name": "left bf casaco",
 			"indices": [],
-			"name": "left bf casaco"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-32,
 				20
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"flipX": false,
+			"fps": 24,
+			"name": "right bf casaco",
 			"indices": [],
-			"name": "right bf casaco"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"flipX": false,
+			"fps": 24,
+			"name": "idle bf casaco",
 			"indices": [],
-			"name": "idle bf casaco"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				8,
 				9
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "hey",
-			"flipX": false,
+			"fps": 24,
+			"name": "hey bf casaco",
 			"indices": [],
-			"name": "hey bf casaco"
+			"flipX": false
+		},
+		{
+			"offsets": [
+				21,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "left bf miss casaco"
+		},
+		{
+			"offsets": [
+				-33,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "right bf miss casaco"
+		},
+		{
+			"offsets": [
+				-35,
+				57
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "up bf miss casaco"
+		},
+		{
+			"offsets": [
+				0,
+				-18
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "down bf miss casaco"
 		}
 	],
 	"no_antialiasing": false,
