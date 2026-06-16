@@ -6249,8 +6249,8 @@
 		],
 		"gfVersion": "gf",
 		"arrowSkins": [
-			"default",
-			"default"
+			"older",
+			"older"
 		],
 		"needsVoices": true,
 		"sections": 0,

@@ -6411,8 +6411,8 @@
 		],
 		"gfVersion": "gf",
 		"arrowSkins": [
-			"default",
-			"default"
+			"older",
+			"older"
 		],
 		"sections": 0,
 		"stage": "woodyOld",
