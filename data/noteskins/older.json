@@ -5,7 +5,7 @@
 		"singUP",
 		"singRIGHT"
 	],
-	"splashesEnabled": true,
+	"splashesEnabled": false,
 	"noteTexture": "UI/notes/NOTE_assets_OLDER",
 	"receptorAnimations": [
 		[
@@ -124,40 +124,6 @@
 				"anim": "confirm"
 			}
 		]
-	],
-	"noteSplashAnimations": [
-		{
-			"offsets": [
-				-2,
-				-2
-			],
-			"xmlName": "note splash",
-			"anim": "note0"
-		},
-		{
-			"offsets": [
-				-2,
-				-2
-			],
-			"xmlName": "note splash",
-			"anim": "note1"
-		},
-		{
-			"offsets": [
-				-2,
-				-2
-			],
-			"xmlName": "note splash",
-			"anim": "note2"
-		},
-		{
-			"offsets": [
-				-2,
-				-2
-			],
-			"xmlName": "note splash",
-			"anim": "note3"
-		}
 	],
 	"noteAnimations": [
 		[
@@ -363,10 +329,8 @@
 			}
 		]
 	],
-	"splashTexture": "UI/notes/noteSplashes",
 	"antialiasing": true,
 	"inGameColoring": true,
 	"noteScale": 0.7,
-	"splashScale": 1.5,
 	"susSplashOrigin": [-10, 15]
 }
