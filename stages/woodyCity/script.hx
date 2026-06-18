@@ -185,7 +185,7 @@ function onLoad()
     if (songName == 'roots')
     {
         ceu.alpha = 0;
-        remove(gi);
+        gi.alpha = 0;
         add(giCoat);
 
         remove(ough);
@@ -204,7 +204,7 @@ function onLoad()
 
         ough3.alpha = 0.6;
 
-        remove(gi);
+        gi.alpha = 0;
         add(giCoat);
 
         add(crowd);
