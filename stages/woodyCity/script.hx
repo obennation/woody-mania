@@ -389,3 +389,59 @@ function onBeatHit(){
     pipoca.animation.play("idle");
     crowd.dance(true);
 }
+
+var allowCountdown:Bool = !PlayState.isStoryMode;
+function onStartCountdown()
+{
+    if (!allowCountdown && songName == "woody")
+    {
+        woodyCutscene();
+        return Function_Stop;
+    }
+}
+
+function woodyCutscene()
+{
+	var songName:String = curSong.toLowerCase();
+	camHUD.visible = false;
+	snapCamToPos(dad.x, dad.y, true);
+	
+	switch (songName)
+	{
+		case 'woody':
+            FlxTimer.wait(0.01, () -> {
+                FlxG.sound.play(Paths.sound('woody_cutscene'));
+                dad.playAnim('cutscene');
+
+                FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.1}, 5, {ease: FlxEase.quadInOut});
+                FlxTimer.wait(0, ()->{ camFollow.setPosition(-100, 600); });
+            });
+			
+			FlxTimer.wait(6.4, () -> {
+				gf.playAnim('cutscene');
+                camFollow.x += 120;
+                FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.15}, 1, {ease: FlxEase.quadInOut});
+			});
+
+            FlxTimer.wait(8, () -> {
+				gf.playAnim('cutscene');
+                camFollow.x -= 120;
+                FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.3}, 1, {ease: FlxEase.quadInOut});
+			});
+
+            FlxTimer.wait(10.2, () -> {
+				endScene();
+			});
+    }
+}
+
+function endScene(){
+    isCameraOnForcedPos = false;
+    camZooming = true;
+    dadGroup.alpha = 1;
+    FlxG.sound.music.stop();
+    camHUD.visible = true;
+    allowCountdown = true;
+    cameraSpeed = 1;
+    startCountdown();
+}

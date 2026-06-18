@@ -1,24 +1,25 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-19,
 				-23
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "cheer",
-			"indices": [],
-			"name": "cheer gf"
+			"fps": 24,
+			"name": "cheer gf",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-9
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceLeft",
+			"fps": 24,
+			"name": "gf dance beat",
 			"indices": [
 				30,
 				0,
@@ -36,17 +37,17 @@
 				12,
 				13,
 				14
-			],
-			"name": "gf dance beat"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-9
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceRight",
+			"fps": 24,
+			"name": "gf dance beat",
 			"indices": [
 				15,
 				16,
@@ -63,21 +64,33 @@
 				27,
 				28,
 				29
-			],
-			"name": "gf dance beat"
+			]
 		},
 		{
+			"loop": true,
+			"flipY": false,
 			"offsets": [
 				-21,
 				-23
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "gf sad",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-4,
+				-13
 			],
 			"indices": [],
 			"fps": 24,
 			"flipX": false,
 			"flipY": false,
-			"anim": "sad",
-			"loop": true,
-			"name": "gf sad"
+			"anim": "cutscene",
+			"loop": false,
+			"name": "gf cutscene"
 		}
 	],
 	"no_antialiasing": false,
