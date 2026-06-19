@@ -7,15 +7,15 @@ function onLoad()
 
 function onEndSong()
 {
-    if (!endingPlayed)
-    {
-        endingPlayed = true;
-        endingCutscene = true;
+	if (PlayState.isStoryMode && !endingPlayed)
+	{
+		endingPlayed = true;
+		endingCutscene = true;
 
-        videoCutscene('weekwoody/ending', false);
+		videoCutscene('weekwoody/ending', false);
 
-        return Function_Stop;
-    }
+		return Function_Stop;
+	}
 
-    return Function_Continue;
+	return Function_Continue;
 }
