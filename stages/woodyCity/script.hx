@@ -1,6 +1,7 @@
 import funkin.backend.Conductor;
 import funkin.game.shaders.DropShadowShader;
 import funkin.objects.Bopper;
+import funkin.backend.LanguageManager;
 
 var night:FlxSprite;
 
@@ -416,17 +417,45 @@ function woodyCutscene()
                 FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.1}, 5, {ease: FlxEase.quadInOut});
                 FlxTimer.wait(0, ()->{ camFollow.setPosition(-100, 600); });
             });
+
+            FlxTimer.wait(0.4, () -> {
+                if (ClientPrefs.subtitles)
+				{
+                    PlayState.instance.showSubtitle(LanguageManager.get("woodycutscene.benny1"), 3);
+                }
+            });
+
+            FlxTimer.wait(2.4, () -> {
+                if (ClientPrefs.subtitles)
+				{
+                    PlayState.instance.showSubtitle(LanguageManager.get("woodycutscene.benny2"), 3);
+                }
+            });
+
+            FlxTimer.wait(4.7, () -> {
+                if (ClientPrefs.subtitles)
+				{
+                    PlayState.instance.showSubtitle(LanguageManager.get("woodycutscene.benny3"), 3);
+                }
+            });
 			
-			FlxTimer.wait(6.4, () -> {
+			FlxTimer.wait(6.5, () -> {
 				gf.playAnim('cutscene');
                 camFollow.x += 120;
                 FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.15}, 1, {ease: FlxEase.quadInOut});
+                if (ClientPrefs.subtitles)
+				{
+                    PlayState.instance.showSubtitle(LanguageManager.get("woodycutscene.gf"), 3);
+                }
 			});
 
             FlxTimer.wait(8, () -> {
-				gf.playAnim('cutscene');
                 camFollow.x -= 120;
                 FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.3}, 1, {ease: FlxEase.quadInOut});
+                if (ClientPrefs.subtitles)
+				{
+                    PlayState.instance.showSubtitle(LanguageManager.get("woodycutscene.benny4"), 2.2);
+                }
 			});
 
             FlxTimer.wait(10.2, () -> {
