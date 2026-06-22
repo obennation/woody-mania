@@ -45,16 +45,17 @@
 				"sectionBeats": 4,
 				"sectionNotes": [
 					[
-						8400,
-						7,
-						0,
-						""
-					],
-					[
 						7200,
 						6,
 						0,
 						""
+					],
+					[
+						8250,
+						7,
+						0,
+						"",
+						true
 					]
 				],
 				"altAnim": null,
@@ -135,11 +136,6 @@
 				"sectionBeats": 4,
 				"sectionNotes": [
 					[
-						18000,
-						7,
-						0
-					],
-					[
 						17400,
 						4,
 						0
@@ -148,6 +144,13 @@
 						16800,
 						4,
 						0
+					],
+					[
+						17850,
+						7,
+						0,
+						"",
+						true
 					]
 				],
 				"altAnim": null,
@@ -231,12 +234,6 @@
 				"sectionBeats": 4,
 				"sectionNotes": [
 					[
-						25800,
-						7,
-						0,
-						""
-					],
-					[
 						25200,
 						5,
 						0,
@@ -259,6 +256,13 @@
 						4,
 						0,
 						""
+					],
+					[
+						25650,
+						7,
+						0,
+						"",
+						true
 					]
 				],
 				"altAnim": null,
@@ -269,12 +273,6 @@
 			{
 				"sectionBeats": 4,
 				"sectionNotes": [
-					[
-						28200,
-						7,
-						0,
-						""
-					],
 					[
 						27600,
 						5,
@@ -298,6 +296,13 @@
 						4,
 						0,
 						""
+					],
+					[
+						28050,
+						7,
+						0,
+						"",
+						true
 					]
 				],
 				"altAnim": null,
@@ -664,20 +669,8 @@
 				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
-						52050,
-						3,
-						0,
-						""
-					],
-					[
 						51900,
 						0,
-						0,
-						""
-					],
-					[
-						52650,
-						3,
 						0,
 						""
 					],
@@ -694,14 +687,30 @@
 						""
 					],
 					[
-						51600,
-						7,
-						0
-					],
-					[
 						50400,
 						6,
 						0
+					],
+					[
+						51450,
+						7,
+						0,
+						"",
+						true
+					],
+					[
+						51750,
+						3,
+						0,
+						"",
+						true
+					],
+					[
+						52350,
+						3,
+						0,
+						"",
+						true
 					]
 				],
 				"sectionBeats": 4,
@@ -890,6 +899,24 @@
 				"gfSection": false,
 				"bpm": 100,
 				"changeBPM": false
+			},
+			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
 			},
 			{
 				"gfSection": false,
