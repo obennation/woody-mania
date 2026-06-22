@@ -18,21 +18,21 @@ function onLoad()
     ceuNoite.scrollFactor.set(0.1, 0.2);
 	add(ceuNoite);
 
-    montanhas = new FlxSprite(-525, 40).loadGraphic(Paths.image("extras/xbox/montanhas"));
+    montanhas = new FlxSprite(-25, -430).loadGraphic(Paths.image("extras/xbox/montanhas"));
     montanhas.scale.set(0.8, 0.8);
     montanhas.alpha = 0.99;
-    montanhas.scrollFactor.set(0.85, 0.85);
+    montanhas.scrollFactor.set(0.1, 0.1);
 	add(montanhas);
 
-    agua = new BGSprite('extras/xbox/agua', 167, 725, 0.9, 0.9, ['agua']);
+    agua = new BGSprite('extras/xbox/agua', 167, 510, 0.9, 0.9, ['agua']);
 	agua.setGraphicSize(Std.int(agua.width * 0.8));
-    agua.scrollFactor.set(0.85, 0.85);
+    agua.scrollFactor.set(0.2, 0.2);
     agua.alpha = 0.75;
 	add(agua);
 
-    predio = new FlxSprite(-778, 45).loadGraphic(Paths.image("extras/xbox/predios"));
+    predio = new FlxSprite(-778, -145).loadGraphic(Paths.image("extras/xbox/predios"));
     predio.scale.set(0.8, 0.8);
-    predio.scrollFactor.set(0.8, 0.8);
+    predio.scrollFactor.set(0.2, 0.2);
 	add(predio);
 
     estrada = new FlxSprite(-1077, -522).loadGraphic(Paths.image("extras/xbox/estrada"));

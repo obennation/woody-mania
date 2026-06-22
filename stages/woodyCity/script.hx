@@ -55,19 +55,19 @@ function onLoad()
     ceu.scrollFactor.set(0.1, 0.2);
 	add(ceu);
 
-    montanhas = new FlxSprite(-2215, -250).loadGraphic(Paths.image("week-woody/montanhas"));
+    montanhas = new FlxSprite(-2180, -350).loadGraphic(Paths.image("week-woody/montanhas"));
     montanhas.scale.set(0.8, 0.8);
-    montanhas.scrollFactor.set(0.85, 0.85);
+    montanhas.scrollFactor.set(0.5, 0.5);
 	add(montanhas);
 
-    predio = new FlxSprite(-1883, -50).loadGraphic(Paths.image("week-woody/predio"));
+    predio = new FlxSprite(-1820, -150).loadGraphic(Paths.image("week-woody/predio"));
     predio.scale.set(0.8, 0.8);
-    predio.scrollFactor.set(0.9, 0.9);
+    predio.scrollFactor.set(0.6, 0.6);
 	add(predio);
 
-    gramas = new FlxSprite(-1603, 541).loadGraphic(Paths.image("week-woody/gramas"));
+    gramas = new FlxSprite(-1603, 500).loadGraphic(Paths.image("week-woody/gramas"));
     gramas.scale.set(0.8, 0.8);
-    gramas.scrollFactor.set(0.8, 0.8);
+    gramas.scrollFactor.set(0.7, 0.7);
 	add(gramas);
 
     arvore2 = new FlxSprite(914, -56).loadGraphic(Paths.image("week-woody/arvore"));
