@@ -3,7 +3,7 @@
     "displayName": "XBOX",
 
     "composers": ["gi"],
-    "charters": ["bennation"],
+    "charters": ["gi", "bennation"],
 
     "difficulties": ["Easy", "Normal", "Hard"],
 

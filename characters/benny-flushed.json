@@ -1,69 +1,69 @@
 {
 	"animations": [
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-2,
 				0
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "idle",
-			"loop": false,
-			"name": "idle flushed"
+			"fps": 24,
+			"name": "idle flushed",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				10,
 				-12
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "down flushed"
+			"fps": 24,
+			"name": "down flushed",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				31,
 				6
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "left flushed"
+			"fps": 24,
+			"name": "left flushed",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
 				16
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "right flushed"
+			"fps": 24,
+			"name": "right flushed",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				59,
 				30
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "singUP",
-			"loop": false,
-			"name": "up flushed"
+			"fps": 24,
+			"name": "up flushed",
+			"indices": [],
+			"flipX": false
 		}
 	],
 	"no_antialiasing": false,
@@ -76,11 +76,11 @@
 	"gameover_intial_sound": null,
 	"scalableOffsets": false,
 	"gameover_confirm_sound": null,
-	"healthicon": "benny",
+	"healthicon": "benny-flushed",
 	"gameover_character": null,
 	"vslice_sustains": true,
 	"flip_x": false,
-	"healthbar_colour": -15388009,
+	"healthbar_colour": -15388265,
 	"camera_position": [
 		30,
 		70
