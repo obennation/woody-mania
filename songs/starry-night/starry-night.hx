@@ -53,7 +53,6 @@ function onEvent(name, v1, v2)
 				case 'cutscene':
 					cutscene.play();
 					cutscene.tiedToGame = true;
-					camGame.alpha = camHUD.alpha = 0;
 			}
 	}
 }
