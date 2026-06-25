@@ -1,69 +1,134 @@
 {
 	"animations": [
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"flipX": false,
+			"fps": 24,
+			"name": "idle bf b side",
 			"indices": [],
-			"name": "idle bf b side"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
-				-11
+				-18
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"flipX": false,
+			"fps": 24,
+			"name": "down bf b side",
 			"indices": [],
-			"name": "down bf b side"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				24,
 				14
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"flipX": false,
+			"fps": 24,
+			"name": "left bf b side",
 			"indices": [],
-			"name": "left bf b side"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-19,
 				20
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"flipX": false,
+			"fps": 24,
+			"name": "right bf b side",
 			"indices": [],
-			"name": "right bf b side"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-31,
 				57
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"flipX": false,
+			"fps": 24,
+			"name": "up bf b side",
 			"indices": [],
-			"name": "up bf b side"
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				-18
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "down bf b side miss"
+		},
+		{
+			"offsets": [
+				23,
+				14
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "left bf b side miss"
+		},
+		{
+			"offsets": [
+				-35,
+				57
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "up bf b side miss"
+		},
+		{
+			"offsets": [
+				-20,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "right bf b side miss"
+		},
+		{
+			"offsets": [
+				25,
+				14
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "hey",
+			"loop": false,
+			"name": "hey b side"
 		}
 	],
 	"no_antialiasing": false,
