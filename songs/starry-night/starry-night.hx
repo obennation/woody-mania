@@ -10,9 +10,6 @@ function onCreatePost()
 		add(cutscene);
 	});
 	cutscene.onEnd(() -> {
-		camGame.alpha = 1;
-		camHUD.alpha = 1;
-		camGame.flash(0xFFFFFFFF, 0.35);
 		cutscene.kill();
 	});
 	cutscene.load(Paths.video('weekwoody/mid-starrynight'), [FunkinVideoSprite.muted]);
