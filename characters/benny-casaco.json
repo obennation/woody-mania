@@ -1,82 +1,134 @@
 {
 	"animations": [
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				37,
 				16
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "hey",
-			"loop": false,
-			"name": "hey casaco"
+			"fps": 24,
+			"name": "hey casaco",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-2,
 				0
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "idle",
-			"loop": false,
-			"name": "idle casaco"
+			"fps": 24,
+			"name": "idle casaco",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				10,
 				-12
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "down casaco"
+			"fps": 24,
+			"name": "down casaco",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				31,
 				6
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "left casaco"
+			"fps": 24,
+			"name": "left casaco",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
 				16
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "right casaco"
+			"fps": 24,
+			"name": "right casaco",
+			"indices": [],
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				59,
 				30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up casaco",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"offsets": [
+				60,
+				19
 			],
 			"indices": [],
 			"fps": 24,
 			"flipX": false,
 			"flipY": false,
-			"anim": "singUP",
+			"anim": "singLEFT-alt",
 			"loop": false,
-			"name": "up casaco"
+			"name": "left alt casaco"
+		},
+		{
+			"offsets": [
+				-55,
+				25
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "right alt casaco"
+		},
+		{
+			"offsets": [
+				47,
+				44
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "up alt casaco"
+		},
+		{
+			"offsets": [
+				13,
+				-28
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "down alt casaco"
 		}
 	],
 	"no_antialiasing": false,
