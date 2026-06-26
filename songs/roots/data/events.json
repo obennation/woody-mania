@@ -2203,6 +2203,11 @@
 						"Mania",
 						"spotlight-left",
 						""
+					],
+					[
+						"Mania",
+						"wow",
+						""
 					]
 				]
 			],
@@ -2438,6 +2443,11 @@
 					[
 						"Mania",
 						"spotlight-off",
+						""
+					],
+					[
+						"Mania",
+						"no-wow",
 						""
 					],
 					[

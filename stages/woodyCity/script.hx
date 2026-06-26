@@ -31,6 +31,8 @@ var crowd:FlxSprite;
 var spotlight:FlxSprite;
 var spotlight2:FlxSprite;
 
+var wow:Bool = false;
+
 var songName:String = Paths.sanitize(PlayState.SONG.song);
 
 function onLoad() 
@@ -109,6 +111,7 @@ function onLoad()
 
     giCoat = new Bopper(1024, 211).loadAtlas('week-woody/gi');
     giCoat.addAnimByPrefix("idle", "props/gi casaco", 24, false);
+    giCoat.addAnimByPrefix("wow", "props/gi casaco uau", 24, false);
 	giCoat.animation.play("idle");
 	giCoat.scale.set(0.75, 0.75);
 	giCoat.scrollFactor.set(1, 1);
@@ -116,7 +119,8 @@ function onLoad()
 	giCoat.antialiasing = true;
 
     pipoca = new Bopper(-858, 300).loadAtlas('week-woody/pipoca');
-	pipoca.addAnimByPrefix("idle", "props/pipoca", 24, false);
+	pipoca.addAnimByPrefix("idle", "props/pipoca idle", 24, false);
+    pipoca.addAnimByPrefix("wow", "props/pipoca uau", 24, false);
 	pipoca.animation.play("idle");
 	pipoca.scale.set(0.75, 0.75);
     pipoca.color = 0xFFE5E5E5;
@@ -314,6 +318,10 @@ function onEvent(name, v1, v2)
 					snapCamToPos(300, 600);
 				case 'normal':
 					isCameraOnForcedPos = false;
+                case 'wow':
+                    wow = true;
+                case 'no-wow':
+                    wow = false;
                 case 'roots':
                     var time = (Conductor.stepCrotchet / 1000) * 64;
 
@@ -404,17 +412,39 @@ function onEvent(name, v1, v2)
     }
 }
 
-function onCountdownTick(){
+function onCountdownTick()
+{
     gi.animation.play("idle");
-    giCoat.animation.play("idle");
-    pipoca.animation.play("idle");
+
+    if (wow)
+    {
+        giCoat.animation.play("wow");
+        pipoca.animation.play("wow");
+    }
+    else
+    {
+        giCoat.animation.play("idle");
+        pipoca.animation.play("idle");
+    }
+
     crowd.dance(true);
 }
 
-function onBeatHit(){
+function onBeatHit()
+{
     gi.animation.play("idle");
-    giCoat.animation.play("idle");
-    pipoca.animation.play("idle");
+
+    if (wow)
+    {
+        giCoat.animation.play("wow");
+        pipoca.animation.play("wow");
+    }
+    else
+    {
+        giCoat.animation.play("idle");
+        pipoca.animation.play("idle");
+    }
+    
     crowd.dance(true);
 }
 
