@@ -195,6 +195,13 @@ function onLoad()
         add(crowd);
     }
 
+    if (songName == 'woody-erect')
+    {
+        predio.blend = BlendMode.HARDLIGHT;
+        ough.alpha = 0.25;
+        ough.blend = BlendMode.OVERLAY;
+    }
+
     if (songName == 'starry-night')
     {
         ceuTarde.alpha = 0;
@@ -265,6 +272,26 @@ function onCreatePost()
         pipoca.shader = makeCharShader(-30, -10, -5, 0);
 
         crowd.shader = makeCharShader(-30, -10, -5, 0);
+    }
+
+    if (songName == 'woody-erect')
+    {
+        boyfriend.shader = makeCharShader(-5, -15, 0, 0);
+		gf.shader = makeCharShader(-15, -15, 0, 0);
+		dad.shader = makeCharShader(-5, -15, 0, 0);
+
+        gi.shader = makeCharShader(-15, -15, 0, 0);
+        pipoca.shader = makeCharShader(-15, -15, 0, 0);
+
+        ceu.shader = makeCharShader(25, -35, 0, 0);
+        montanhas.shader = makeCharShader(0, 15, 0, 0);
+        predio.shader = makeCharShader(0, 15, 0, 0);
+        gramas.shader = makeCharShader(-5, 15, 0, 0);
+        arvore.shader = makeCharShader(-5, 15, 0, 0);
+        arvore2.shader = makeCharShader(-5, 15, 0, 0);
+        construcoes.shader = makeCharShader(-15, 15, 0, 0);
+        postes.shader = makeCharShader(0, 25, 0, 0);
+        estrada.shader = makeCharShader(0, -15, 0, 0);
     }
     snapCamToPos(750, 580);
 }
