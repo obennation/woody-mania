@@ -1,135 +1,83 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-2,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
-		},
-		{
-			"offsets": [
-				31,
-				6
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
-		},
-		{
-			"offsets": [
-				10,
-				-12
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
-		},
-		{
-			"offsets": [
-				59,
-				30
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "up"
-		},
-		{
-			"offsets": [
-				0,
-				16
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				39,
-				17
-			],
-			"anim": "hey",
-			"fps": 24,
-			"name": "hey",
+			"name": "idle",
 			"indices": []
 		},
 		{
 			"loop": false,
-			"flipY": false,
+			"offsets": [
+				31,
+				6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-12
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				59,
+				30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				16
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				39,
+				17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "hey"
+		},
+		{
 			"offsets": [
 				69,
 				14
 			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
 			"anim": "cutscene",
-			"fps": 24,
-			"name": "benny cutscene",
-			"indices": [],
-			"flipX": false
-		},
-		{
-			"offsets": [
-				60,
-				19
-			],
-			"indices": [],
-			"fps": 24,
 			"flipX": false,
-			"flipY": false,
-			"anim": "singLEFT-alt",
-			"loop": false,
-			"name": "left alt"
-		},
-		{
-			"offsets": [
-				13,
-				-28
-			],
 			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
-			"anim": "singDOWN-alt",
-			"loop": false,
-			"name": "down alt"
-		},
-		{
-			"offsets": [
-				52,
-				44
-			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
-			"anim": "singUP-alt",
-			"loop": false,
-			"name": "up alt"
-		},
-		{
-			"offsets": [
-				-55,
-				25
-			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
-			"anim": "singRIGHT-alt",
-			"loop": false,
-			"name": "right alt"
+			"name": "benny cutscene"
 		}
 	],
 	"no_antialiasing": false,
