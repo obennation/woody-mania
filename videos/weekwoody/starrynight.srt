@@ -1,0 +1,40 @@
+1
+00:00:05,550 --> 00:00:06,600
+starrynightcutscene.benny1
+
+2
+00:00:06,600 --> 00:00:08,410
+starrynightcutscene.benny2
+
+3
+00:00:08,410 --> 00:00:10,870
+starrynightcutscene.gf1
+
+4
+00:00:10,900 --> 00:00:12,540
+starrynightcutscene.gi1
+
+5
+00:00:12,600 --> 00:00:13,910
+starrynightcutscene.gi2
+
+6
+00:00:15,800 --> 00:00:16,910
+starrynightcutscene.benny3
+
+7
+00:00:17,200 --> 00:00:18,330
+starrynightcutscene.benny4
+
+8
+00:00:18,410 --> 00:00:19,790
+starrynightcutscene.benny5
+
+9
+00:00:20,000 --> 00:00:21,870
+starrynightcutscene.benny6
+
+10
+00:00:22,120 --> 00:00:22,950
+starrynightcutscene.bf
+
