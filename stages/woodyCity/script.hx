@@ -202,14 +202,15 @@ function onLoad()
         remove(ough);
         add(ough2);
 
-        add(crowd);
+        if (!ClientPrefs.lowQuality) {
+            add(crowd);
+        }
     }
 
     if (songName == 'woody-erect')
     {
         predio.blend = BlendMode.HARDLIGHT;
-        ough.alpha = 0.25;
-        ough.blend = BlendMode.OVERLAY;
+        ough.blend = BlendMode.HARDLIGHT;
     }
 
     if (songName == 'starry-night')
@@ -225,7 +226,9 @@ function onLoad()
         gi.alpha = 0;
         add(giCoat);
 
-        add(crowd);
+        if (!ClientPrefs.lowQuality) {
+            add(crowd);
+        }
     }
 }
 
