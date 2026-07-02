@@ -2208,6 +2208,11 @@
 						"Mania",
 						"wow",
 						""
+					],
+					[
+						"Mania",
+						"shaderTransition",
+						""
 					]
 				]
 			],
@@ -2493,6 +2498,11 @@
 					[
 						"Mania",
 						"hey-props",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"0.6",
 						""
 					]
 				]

@@ -377,6 +377,13 @@ function onEvent(name, v1, v2)
                     FlxTween.tween(ceuTarde, {alpha: 0}, 14, {ease: FlxEase.linear});
                     FlxTween.tween(ough2, {alpha: 0}, 14, {ease: FlxEase.linear});
                     FlxTween.tween(ough3, {alpha: 0.4}, 14, {ease: FlxEase.linear});
+                case 'shaderTransition':
+                    boyfriend.shader = makeCharShader(-15, -10, -5, 0);
+                    gf.shader = makeCharShader(-15, -10, -5, 0);
+                    dad.shader = makeCharShader(-15, -10, -5, 0);
+                    giCoat.shader = makeCharShader(-30, -10, -5, 0);
+                    pipoca.shader = makeCharShader(-30, -10, -5, 0);
+                    crowd.shader = makeCharShader(-30, -10, -5, 0);
                 case 'overlayBgAlpha':
                     FlxTween.tween(ough3, {alpha: 0}, 4, {ease: FlxEase.linear});
                 case 'rootsOverlay':
