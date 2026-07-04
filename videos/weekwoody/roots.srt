@@ -1,0 +1,72 @@
+1
+00:00:03,500 --> 00:00:05,090
+rootscutscene.sec1
+
+2
+00:00:05,090 --> 00:00:06,400
+rootscutscene.sec2
+
+3
+00:00:06,400 --> 00:00:08,870
+rootscutscene.sec3
+
+4
+00:00:09,000 --> 00:00:10,100
+rootscutscene.sec4
+
+5
+00:00:16,900 --> 00:00:17,430
+rootscutscene.benny1
+
+6
+00:00:17,430 --> 00:00:19,790
+rootscutscene.benny2
+
+7
+00:00:19,790 --> 00:00:20,500
+rootscutscene.bf1
+
+8
+00:00:21,100 --> 00:00:22,700
+rootscutscene.pipoca1
+
+9
+00:00:25,840 --> 00:00:26,370
+rootscutscene.pipoca2
+
+10
+00:00:26,870 --> 00:00:27,580
+rootscutscene.benny3
+
+11
+00:00:28,100 --> 00:00:29,000
+rootscutscene.benny4
+
+12
+00:00:29,000 --> 00:00:30,400
+rootscutscene.benny5
+
+13
+00:00:30,890 --> 00:00:31,680
+rootscutscene.benny6
+
+14
+00:00:31,680 --> 00:00:33,120
+rootscutscene.gi
+
+15
+00:00:33,120 --> 00:00:34,630
+rootscutscene.gf
+
+16
+00:00:34,630 --> 00:00:35,340
+rootscutscene.bf2
+
+17
+00:00:36,120 --> 00:00:37,150
+rootscutscene.benny7
+
+18
+00:00:37,420 --> 00:00:39,410
+rootscutscene.benny8
+
