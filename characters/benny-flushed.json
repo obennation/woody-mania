@@ -30,8 +30,8 @@
 			"loop": false,
 			"flipY": false,
 			"offsets": [
-				31,
-				6
+				61,
+				20
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -43,8 +43,8 @@
 			"loop": false,
 			"flipY": false,
 			"offsets": [
-				0,
-				16
+				-24,
+				20
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -56,14 +56,27 @@
 			"loop": false,
 			"flipY": false,
 			"offsets": [
-				59,
-				30
+				17,
+				52
 			],
 			"anim": "singUP",
 			"fps": 24,
 			"name": "up flushed",
 			"indices": [],
 			"flipX": false
+		},
+		{
+			"offsets": [
+				10,
+				44
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "ouch",
+			"loop": false,
+			"name": "ouch flushed"
 		}
 	],
 	"no_antialiasing": false,

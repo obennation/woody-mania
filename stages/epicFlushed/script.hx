@@ -31,7 +31,6 @@ function makeCharShader(_brightness, _hue, _contrast, _saturation)
 function onCreatePost()
 {
     boyfriend.shader = makeCharShader(5, -5, 0, 0);
-	gf.shader = makeCharShader(5, -5, 0, 0);
 	dad.shader = makeCharShader(5, -5, 0, 0);
 }
 
