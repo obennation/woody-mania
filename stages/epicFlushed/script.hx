@@ -10,6 +10,9 @@ var bg8:FlxSprite;
 var bg9:FlxSprite;
 var bg10:FlxSprite;
 var bg11:FlxSprite;
+var bg12:FlxSprite;
+var bg13:FlxSprite;
+var bgLobby:FlxSprite;
 
 var backgrounds:Array<FlxSprite> = [];
 
@@ -65,12 +68,29 @@ function onLoad()
     bg10.scrollFactor.set(1, 1);
     bg10.visible = false;
     add(bg10);
-         
-    bg11 = new FlxSprite(-1800, -500).loadGraphic(Paths.image("extras/flushed/bg11"));
+
+    bg11 = new FlxSprite(-700, -200).loadGraphic(Paths.image("extras/flushed/bg11"));
     bg11.scrollFactor.set(1, 1);
-    bg11.scale.set(0.7, 0.7);
     bg11.visible = false;
     add(bg11);
+
+    bg12 = new FlxSprite(-700, -200).loadGraphic(Paths.image("extras/flushed/bg12"));
+    bg12.scale.set(1.1, 1.1);
+    bg12.scrollFactor.set(1, 1);
+    bg12.visible = false;
+    add(bg12);
+    
+    bg13 = new FlxSprite(-600, -200).loadGraphic(Paths.image("extras/flushed/bg13"));
+    bg13.scale.set(1.2, 1.2);
+    bg13.scrollFactor.set(1, 1);
+    bg13.visible = false;
+    add(bg13);
+         
+    bgLobby = new FlxSprite(-1800, -500).loadGraphic(Paths.image("extras/flushed/backgroundLobby"));
+    bgLobby.scrollFactor.set(1, 1);
+    bgLobby.scale.set(0.7, 0.7);
+    bgLobby.visible = false;
+    add(bgLobby);
 
     backgrounds = [
         bg2,
@@ -81,7 +101,10 @@ function onLoad()
         bg7,
         bg8,
         bg9,
-        bg10
+        bg10,
+        bg11,
+        bg12,
+        bg13
     ];
 
     white = new BGSprite(null, 0, 0, 0, 0);
@@ -142,9 +165,20 @@ function onEvent(name, v1, v2)
                     }
                     var randomBG:Int = FlxG.random.int(0, backgrounds.length - 1);
                     backgrounds[randomBG].visible = true;
-                    bg11.visible = false;
+                    bgLobby.visible = false;
+
+                    if (backgrounds[randomBG] == bg13)
+                        {
+                            boyfriend.shader = makeCharShader(-50, -5, 0, 0);
+                            dad.shader = makeCharShader(-50, -5, 0, 0);
+                        }
+                        else
+                        {
+                            boyfriend.shader = makeCharShader(5, -5, 0, 0);
+                            dad.shader = makeCharShader(5, -5, 0, 0);
+                        }
                 case 'backgroundLobby':
-                    bg11.visible = true;
+                    bgLobby.visible = true;
                 case 'bfDark':
                     FlxTween.color(boyfriend, 7, boyfriend.color, 0xFF000000);
                 case 'bfLight':
