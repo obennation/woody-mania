@@ -1,0 +1,71 @@
+1
+00:00:01,380 --> 00:00:02,220
+endingcutscene.benny1
+
+2
+00:00:02,220 --> 00:00:03,630
+endingcutscene.benny2
+
+3
+00:00:03,800 --> 00:00:05,730
+endingcutscene.benny3
+
+4
+00:00:06,230 --> 00:00:06,600
+endingcutscene.benny4
+
+5
+00:00:06,600 --> 00:00:07,830
+endingcutscene.benny5
+
+6
+00:00:10,220 --> 00:00:10,850
+endingcutscene.benny6
+
+7
+00:00:10,850 --> 00:00:13,930
+endingcutscene.benny7
+
+8
+00:00:14,390 --> 00:00:14,720
+endingcutscene.gi1
+
+9
+00:00:14,720 --> 00:00:15,700
+endingcutscene.gi2
+
+10
+00:00:15,920 --> 00:00:17,860
+endingcutscene.gi3
+
+11
+00:00:18,400 --> 00:00:19,830
+endingcutscene.gi4
+
+12
+00:00:19,830 --> 00:00:21,130
+endingcutscene.gi5
+
+13
+00:00:23,500 --> 00:00:25,260
+endingcutscene.pipoca1
+
+14
+00:00:25,260 --> 00:00:27,200
+endingcutscene.pipoca2
+
+15
+00:00:28,250 --> 00:00:29,230
+endingcutscene.benny8
+
+16
+00:00:29,220 --> 00:00:31,030
+endingcutscene.benny9
+
+17
+00:00:31,030 --> 00:00:34,160
+endingcutscene.benny10
+
+18
+00:00:34,330 --> 00:00:35,320
+endingcutscene.bfgf
