@@ -1,0 +1,171 @@
+1
+00:00:04,620 --> 00:00:06,620
+upapayumacutscene.gf1
+
+2
+00:00:06,620 --> 00:00:08,000
+upapayumacutscene.gf2
+
+3
+00:00:08,350 --> 00:00:08,800
+upapayumacutscene.bf1
+
+4
+00:00:08,800 --> 00:00:09,780
+upapayumacutscene.bf2
+
+5
+00:00:10,000 --> 00:00:13,410
+upapayumacutscene.gf3
+
+6
+00:00:14,570 --> 00:00:15,480
+upapayumacutscene.bfbenny
+
+7
+00:00:16,440 --> 00:00:16,910
+upapayumacutscene.bf3
+
+8
+00:00:17,180 --> 00:00:18,850
+upapayumacutscene.benny1
+
+9
+00:00:19,080 --> 00:00:20,290
+upapayumacutscene.benny2
+
+10
+00:00:21,080 --> 00:00:22,120
+upapayumacutscene.gf4
+
+11
+00:00:22,450 --> 00:00:24,120
+upapayumacutscene.benny3
+
+12
+00:00:24,580 --> 00:00:25,050
+upapayumacutscene.bf4
+
+13
+00:00:25,130 --> 00:00:26,790
+upapayumacutscene.gf5
+
+14
+00:00:27,210 --> 00:00:28,780
+upapayumacutscene.benny4
+
+15
+00:00:28,780 --> 00:00:31,580
+upapayumacutscene.benny5
+
+16
+00:00:31,580 --> 00:00:33,670
+"upapayumacutscene.benny6
+
+17
+00:00:33,670 --> 00:00:34,870
+upapayumacutscene.bfgf
+
+18
+00:00:35,410 --> 00:00:37,950
+upapayumacutscene.benny7
+
+19
+00:00:38,400 --> 00:00:39,910
+upapayumacutscene.benny8
+
+20
+00:00:39,910 --> 00:00:41,910
+upapayumacutscene.benny9
+
+21
+00:00:43,000 --> 00:00:45,410
+upapayumacutscene.benny10
+
+22
+00:00:47,450 --> 00:00:49,120
+upapayumacutscene.benny11
+
+23
+00:00:49,800 --> 00:00:51,020
+upapayumacutscene.gi1
+
+24
+00:00:51,020 --> 00:00:53,200
+upapayumacutscene.gi2
+
+25
+00:00:53,870 --> 00:00:55,120
+upapayumacutscene.gi3
+
+26
+00:00:55,120 --> 00:00:56,200
+upapayumacutscene.gi4
+
+27
+00:00:56,200 --> 00:00:59,200
+upapayumacutscene.gi5
+
+28
+00:01:00,330 --> 00:01:01,600
+upapayumacutscene.pipoca1
+
+29
+00:01:01,600 --> 00:01:02,620
+upapayumacutscene.pipoca2
+
+30
+00:01:02,910 --> 00:01:04,500
+upapayumacutscene.pipoca3
+
+31
+00:01:05,000 --> 00:01:06,750
+upapayumacutscene.benny12
+
+32
+00:01:07,000 --> 00:01:07,910
+upapayumacutscene.gi6
+
+33
+00:01:08,410 --> 00:01:10,200
+upapayumacutscene.gi7
+
+34
+00:01:10,200 --> 00:01:11,080
+upapayumacutscene.gi8
+
+35
+00:01:14,300 --> 00:01:16,450
+upapayumacutscene.gf6
+
+36
+00:01:16,450 --> 00:01:16,950
+upapayumacutscene.gf7
+
+37
+00:01:19,220 --> 00:01:19,660
+upapayumacutscene.bf5
+
+38
+00:01:19,660 --> 00:01:21,870
+upapayumacutscene.bf6
+
+39
+00:01:21,870 --> 00:01:22,410
+upapayumacutscene.benny13
+
+40
+00:01:22,410 --> 00:01:24,120
+upapayumacutscene.benny14
+
+41
+00:01:25,670 --> 00:01:28,450
+upapayumacutscene.gf8
+
+42
+00:01:28,450 --> 00:01:30,040
+upapayumacutscene.pipoca6
+
+43
+00:01:30,850 --> 00:01:33,040
+upapayumacutscene.benny15
