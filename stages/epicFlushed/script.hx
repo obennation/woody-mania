@@ -14,6 +14,13 @@ var bg12:FlxSprite;
 var bg13:FlxSprite;
 var bgLobby:FlxSprite;
 
+var train:FlxSprite;
+
+var trainPassed:Bool = false;
+var trainMoving:Bool = false;
+var trainBaseY:Float = 500;
+var trainTime:Float = 0;
+
 var backgrounds:Array<FlxSprite> = [];
 
 function onLoad() 
@@ -92,6 +99,12 @@ function onLoad()
     bgLobby.visible = false;
     add(bgLobby);
 
+    train = new FlxSprite(-6250, trainBaseY).loadGraphic(Paths.image("extras/flushed/epicTrain"));
+    train.scale.set(0.7, 0.7);
+    train.visible = false;
+    train.zIndex = 3000;
+    add(train);
+
     backgrounds = [
         bg2,
         bg3,
@@ -129,6 +142,26 @@ function onCreatePost()
 	dad.shader = makeCharShader(5, -5, 0, 0);
 }
 
+function onUpdate(elapsed)
+{
+    if (trainMoving)
+    {
+        trainTime += elapsed;
+
+        if (trainTime >= 0.08)
+        {
+            trainTime = 0;
+
+            trainFrame = !trainFrame;
+
+            if (trainFrame)
+                train.y = trainBaseY - 2;
+            else
+                train.y = trainBaseY + 2;
+        }
+    }
+}
+
 function onEvent(name, v1, v2)
 {
     switch (name)
@@ -152,12 +185,12 @@ function onEvent(name, v1, v2)
 					isCameraOnForcedPos = false;
                 case 'White Fade':
                     FlxG.camera.fade(FlxColor.WHITE, 6, false, function()
+					{
+						FlxG.camera.fade(FlxColor.WHITE, 0, true, function()
 						{
-							FlxG.camera.fade(FlxColor.WHITE, 0, true, function()
-							{
-								add(white);
-							});
+							add(white);
 						});
+					});
                 case 'bgChange':
                     for (background in backgrounds)
                     {
@@ -177,8 +210,43 @@ function onEvent(name, v1, v2)
                             boyfriend.shader = makeCharShader(5, -5, 0, 0);
                             dad.shader = makeCharShader(5, -5, 0, 0);
                         }
+                    trainPassed = true;
+                    trainMoving = false;
+                    train.visible = false;
                 case 'backgroundLobby':
+                    boyfriend.shader = makeCharShader(5, -5, 0, 0);
+                    dad.shader = makeCharShader(5, -5, 0, 0);
+
                     bgLobby.visible = true;
+                    trainPassed = false;
+
+                    new FlxTimer().start(FlxG.random.float(3, 12), function(tmr)
+                    {
+                        if (!bgLobby.visible || trainPassed)
+                            return;
+
+                        trainPassed = true;
+
+                        train.x = -6250;
+                        train.y = trainBaseY;
+                        train.visible = true;
+
+                        FlxG.sound.play(Paths.music("trainFlushed"), 0.5);
+
+                        trainTime = 0;
+                        trainMoving = true;
+                        trainFrame = false;
+
+                        FlxTween.tween(train, {x: 2500}, 15, {
+                            ease: FlxEase.linear,
+                            onComplete: function(twn)
+                            {
+                                trainMoving = false;
+                                train.visible = false;
+                                train.y = trainBaseY;
+                            }
+                        });
+                    });
                 case 'bfDark':
                     FlxTween.color(boyfriend, 7, boyfriend.color, 0xFF000000);
                 case 'bfLight':

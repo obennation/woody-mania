@@ -7,7 +7,7 @@ upapayumacutscene.gf1
 upapayumacutscene.gf2
 
 3
-00:00:08,350 --> 00:00:08,800
+00:00:08,300 --> 00:00:08,800
 upapayumacutscene.bf1
 
 4
@@ -39,7 +39,7 @@ upapayumacutscene.benny2
 upapayumacutscene.gf4
 
 11
-00:00:22,450 --> 00:00:24,120
+00:00:22,400 --> 00:00:24,120
 upapayumacutscene.benny3
 
 12
@@ -60,7 +60,7 @@ upapayumacutscene.benny5
 
 16
 00:00:31,580 --> 00:00:33,670
-"upapayumacutscene.benny6
+upapayumacutscene.benny6
 
 17
 00:00:33,670 --> 00:00:34,870
