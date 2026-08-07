@@ -71,22 +71,24 @@ function onLoad()
     predio.scrollFactor.set(0.6, 0.6);
 	add(predio);
 
-    gramas = new FlxSprite(-1603, 500).loadGraphic(Paths.image("week-woody/gramas"));
-    gramas.scale.set(0.8, 0.8);
-    gramas.scrollFactor.set(0.7, 0.7);
-	add(gramas);
+    if (!ClientPrefs.lowQuality){
+        gramas = new FlxSprite(-1603, 500).loadGraphic(Paths.image("week-woody/gramas"));
+        gramas.scale.set(0.8, 0.8);
+        gramas.scrollFactor.set(0.7, 0.7);
+	    add(gramas);
 
-    arvore2 = new FlxSprite(914, -56).loadGraphic(Paths.image("week-woody/arvore"));
-    arvore2.scale.set(0.8, 0.8);
-    arvore2.scrollFactor.set(0.85, 0.85);
-    arvore2.alpha = 0.65;
-	add(arvore2);
+        arvore2 = new FlxSprite(914, -56).loadGraphic(Paths.image("week-woody/arvore"));
+        arvore2.scale.set(0.8, 0.8);
+        arvore2.scrollFactor.set(0.85, 0.85);
+        arvore2.alpha = 0.65;
+	    add(arvore2);
 
-    arvore = new FlxSprite(-1200, -109).loadGraphic(Paths.image("week-woody/arvore"));
-    arvore.scale.set(0.8, 0.8);
-    arvore.scrollFactor.set(0.85, 0.85);
-    arvore.alpha = 0.65;
-	add(arvore);
+        arvore = new FlxSprite(-1200, -109).loadGraphic(Paths.image("week-woody/arvore"));
+        arvore.scale.set(0.8, 0.8);
+        arvore.scrollFactor.set(0.85, 0.85);
+        arvore.alpha = 0.65;
+	    add(arvore);
+    }
 
     construcoes = new FlxSprite(-1845, -170).loadGraphic(Paths.image("week-woody/construcoes"));
     construcoes.scale.set(0.85, 0.85);
@@ -261,7 +263,7 @@ function makeCharShader(_brightness, _hue, _contrast, _saturation)
 
 function onCreatePost()
 {
-    if (songName == 'roots')
+    if (songName == 'roots' && !ClientPrefs.lowQuality)
     {
         var pipocaRim = makeRimForSpr(pipoca, 25);
 
@@ -299,9 +301,11 @@ function onCreatePost()
         ceu.shader = makeCharShader(25, -35, 0, 0);
         montanhas.shader = makeCharShader(0, 15, 0, 0);
         predio.shader = makeCharShader(0, 15, 0, 0);
-        gramas.shader = makeCharShader(-5, 15, 0, 0);
-        arvore.shader = makeCharShader(-5, 15, 0, 0);
-        arvore2.shader = makeCharShader(-5, 15, 0, 0);
+        if (!ClientPrefs.lowQuality){
+            gramas.shader = makeCharShader(-5, 15, 0, 0);
+            arvore.shader = makeCharShader(-5, 15, 0, 0);
+            arvore2.shader = makeCharShader(-5, 15, 0, 0);
+        }
         construcoes.shader = makeCharShader(-15, 15, 0, 0);
         postes.shader = makeCharShader(0, 25, 0, 0);
         estrada.shader = makeCharShader(0, -15, 0, 0);
@@ -353,15 +357,18 @@ function onEvent(name, v1, v2)
                         
                         [montanhas, 1, 0xFFD9D9D9],
                         [predio, 1, 0xFFD9D9D9],
-                        [gramas, 1, 0xFFD9D9D9],
-                        [arvore2, 0.65, 0xFFD9D9D9],
-                        [arvore, 0.65, 0xFFD9D9D9],
                         [construcoes, 1, 0xFFD9D9D9],
                         [postes, 0.85, 0xFFD9D9D9],
-                        [estrada, 1, 0xFFD9D9D9],
-
-                        [crowd, 0.9, 0xFFE5E5E5]
+                        [estrada, 1, 0xFFD9D9D9]
                     ];
+
+                    if (!ClientPrefs.lowQuality)
+                    {
+                        sprites.push([gramas, 1, 0xFFD9D9D9]);
+                        sprites.push([arvore2, 0.65, 0xFFD9D9D9]);
+                        sprites.push([arvore, 0.65, 0xFFD9D9D9]);
+                        sprites.push([crowd, 0.9, 0xFFE5E5E5]);
+                    }
 
                     for (data in sprites)
                     {

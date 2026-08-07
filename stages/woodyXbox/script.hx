@@ -69,14 +69,33 @@ function makeRimForSpr(spr, angle:Float = 0)
 	return rim;
 }
 
+function makeCharShader(_brightness, _hue, _contrast, _saturation)
+{
+	var shader = newShader('adjustColor');
+	shader.setFloat('brightness', _brightness);
+	shader.setFloat('hue', _hue);
+	shader.setFloat('contrast', _contrast);
+	shader.setFloat('saturation', _saturation);
+	
+	return shader;
+}
+
 function onCreatePost()
 {
-    var dadrim = makeRimForSpr(dad, 25);
-	dadrim.threshold = 0.3;
+	if (!ClientPrefs.lowQuality){
+        var dadrim = makeRimForSpr(dad, 25);
+	    dadrim.threshold = 0.3;
 	
-	var bfRim = makeRimForSpr(boyfriend, 90);
+	    var bfRim = makeRimForSpr(boyfriend, 90);
 	
-	var gfRim = makeRimForSpr(gf, 90);
+	    var gfRim = makeRimForSpr(gf, 90);
+	}
+	else
+	{
+		boyfriend.shader = makeCharShader(-20, -20, -2, -5);
+		gf.shader = makeCharShader(-20, -20, -2, -5);
+		dad.shader = makeCharShader(-20, -20, -2, -5);
+	}
 
     snapCamToPos(750, 580);
 }
