@@ -263,7 +263,7 @@ function makeCharShader(_brightness, _hue, _contrast, _saturation)
 
 function onCreatePost()
 {
-    if (songName == 'roots' && !ClientPrefs.lowQuality)
+    if (songName == 'roots' && ClientPrefs.shaders)
     {
         var pipocaRim = makeRimForSpr(pipoca, 25);
 

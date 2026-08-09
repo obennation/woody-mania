@@ -82,7 +82,7 @@ function makeCharShader(_brightness, _hue, _contrast, _saturation)
 
 function onCreatePost()
 {
-	if (!ClientPrefs.lowQuality){
+	if (ClientPrefs.shaders){
         var dadrim = makeRimForSpr(dad, 25);
 	    dadrim.threshold = 0.3;
 	
