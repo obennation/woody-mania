@@ -189,6 +189,10 @@ function onEvent(name, v1, v2)
 						FlxG.camera.fade(FlxColor.WHITE, 0, true, function()
 						{
 							add(white);
+
+                            trainPassed = true;
+                            trainMoving = false;
+                            train.visible = false;
 						});
 					});
                 case 'bgChange':
@@ -220,7 +224,7 @@ function onEvent(name, v1, v2)
                     bgLobby.visible = true;
                     trainPassed = false;
 
-                    new FlxTimer().start(FlxG.random.float(3, 12), function(tmr)
+                    new FlxTimer().start(FlxG.random.int(1, 100), function(tmr)
                     {
                         if (!bgLobby.visible || trainPassed)
                             return;
