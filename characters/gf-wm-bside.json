@@ -1,10 +1,15 @@
 {
 	"animations": [
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
 				-9
 			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "gf dance beat b side",
 			"indices": [
 				30,
 				0,
@@ -23,18 +28,18 @@
 				13,
 				14
 			],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
-			"anim": "danceLeft",
-			"loop": false,
-			"name": "gf dance beat b side"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
 				-9
 			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "gf dance beat b side",
 			"indices": [
 				15,
 				16,
@@ -52,37 +57,54 @@
 				28,
 				29
 			],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
-			"anim": "danceRight",
-			"loop": false,
-			"name": "gf dance beat b side"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-20,
-				-26
+				-23
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
-			"flipY": false,
 			"anim": "cheer",
-			"loop": false,
-			"name": "cheer gf b side"
+			"fps": 24,
+			"name": "cheer gf b side",
+			"indices": [],
+			"flipX": false
 		},
 		{
 			"offsets": [
 				-21,
-				-26
+				-23
 			],
-			"indices": [],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			],
 			"fps": 24,
 			"flipX": false,
 			"flipY": false,
 			"anim": "sad",
-			"loop": true,
+			"loop": false,
 			"name": "gf sad b side"
 		}
 	],
