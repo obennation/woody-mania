@@ -434,6 +434,8 @@ function onEvent(name, v1, v2)
                             spotlight2.visible = false;
                         }
                     });
+                case 'blackScreen':
+                    black.alpha = 1;
             }
     }
 }
