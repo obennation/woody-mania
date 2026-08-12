@@ -189,12 +189,6 @@ function onLoad()
 	ough3.alpha = 0;
     add(ough3);
 
-    if (songName == 'tutorial')
-    {
-        gi.alpha = 0;
-        pipoca.alpha = 0;
-    }
-
     if (songName == 'roots')
     {
         ceu.alpha = 0;

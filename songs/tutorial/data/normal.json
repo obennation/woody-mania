@@ -936,7 +936,7 @@
 			"default"
 		],
 		"song": "Tutorial",
-		"stage": "woodyCity",
+		"stage": "tutorialWoody",
 		"needsVoices": true,
 		"format": "nmv2",
 		"bpm": 100,

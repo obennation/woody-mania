@@ -15,7 +15,7 @@ function onMoveCamera(turn)
 	
 	if (canTween)
 	{
-		FlxTween.tween(FlxG.camera, {zoom: turn == 'dad' ? 1 : 0.7}, (Conductor.stepCrotchet / 1000) * 4, {ease: FlxEase.elasticInOut});
+		FlxTween.tween(FlxG.camera, {zoom: turn == 'dad' ? 1 : 0.8}, (Conductor.stepCrotchet / 1000) * 4, {ease: FlxEase.elasticInOut});
 		canTween = false;
 	}
 }
