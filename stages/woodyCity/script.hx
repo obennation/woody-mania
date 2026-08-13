@@ -194,8 +194,6 @@ function onLoad()
         ceu.alpha = 0;
         gi.alpha = 0;
         add(giCoat);
-
-        remove(ough);
         add(ough2);
 
         if (!ClientPrefs.lowQuality) {
@@ -214,8 +212,6 @@ function onLoad()
         ceuTarde.alpha = 0;
         ceu.alpha = 0;
         night.alpha = 1;
-
-        remove(ough);
 
         ough3.alpha = 0.6;
 
@@ -436,6 +432,8 @@ function onEvent(name, v1, v2)
                     });
                 case 'blackScreen':
                     black.alpha = 1;
+                    ough.alpha = 0;
+                    ough3.alpha = 0;
             }
     }
 }
