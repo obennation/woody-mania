@@ -435,8 +435,6 @@ function onEvent(name, v1, v2)
                     FlxTween.tween(ough3, {alpha: 0}, 1, {ease: FlxEase.linear});
                 case 'blackScreen':
                     black.alpha = 1;
-                    ough.alpha = 0;
-                    ough3.alpha = 0;
             }
     }
 }
