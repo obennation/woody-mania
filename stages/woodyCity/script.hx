@@ -194,8 +194,6 @@ function onLoad()
         ceu.alpha = 0;
         gi.alpha = 0;
         add(giCoat);
-
-        remove(ough);
         add(ough2);
 
         if (!ClientPrefs.lowQuality) {
@@ -214,8 +212,6 @@ function onLoad()
         ceuTarde.alpha = 0;
         ceu.alpha = 0;
         night.alpha = 1;
-
-        remove(ough);
 
         ough3.alpha = 0.6;
 
@@ -434,6 +430,9 @@ function onEvent(name, v1, v2)
                             spotlight2.visible = false;
                         }
                     });
+                case 'transitionCutscene':
+                    FlxTween.tween(ough, {alpha: 0}, 1, {ease: FlxEase.linear});
+                    FlxTween.tween(ough3, {alpha: 0}, 1, {ease: FlxEase.linear});
                 case 'blackScreen':
                     black.alpha = 1;
             }
