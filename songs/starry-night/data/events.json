@@ -2513,6 +2513,11 @@
 						"HUD Fade",
 						"0",
 						"1"
+					],
+					[
+						"Mania",
+						"transitionCutscene",
+						""
 					]
 				]
 			],

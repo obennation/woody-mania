@@ -430,6 +430,9 @@ function onEvent(name, v1, v2)
                             spotlight2.visible = false;
                         }
                     });
+                case 'transitionCutscene':
+                    FlxTween.tween(ough, {alpha: 0}, 1, {ease: FlxEase.linear});
+                    FlxTween.tween(ough3, {alpha: 0}, 1, {ease: FlxEase.linear});
                 case 'blackScreen':
                     black.alpha = 1;
                     ough.alpha = 0;
