@@ -23,6 +23,8 @@ var trainTime:Float = 0;
 
 var backgrounds:Array<FlxSprite> = [];
 
+var lastBG:Int = -1;
+
 function onLoad() 
 {
     var bg:FlxSprite = new FlxSprite(-600, -100).loadGraphic(Paths.image("extras/flushed/bg"));
@@ -189,10 +191,6 @@ function onEvent(name, v1, v2)
 						FlxG.camera.fade(FlxColor.WHITE, 0, true, function()
 						{
 							add(white);
-
-                            trainPassed = true;
-                            trainMoving = false;
-                            train.visible = false;
 						});
 					});
                 case 'bgChange':
@@ -200,20 +198,33 @@ function onEvent(name, v1, v2)
                     {
                         background.visible = false;
                     }
-                    var randomBG:Int = FlxG.random.int(0, backgrounds.length - 1);
-                    backgrounds[randomBG].visible = true;
+
+                    var availableBG:Array<FlxSprite> = [];
+
+                    for (background in backgrounds)
+                    {
+                        if (background != backgrounds[lastBG])
+                            availableBG.push(background);
+                    }
+
+                    var randomBG:FlxSprite = availableBG[FlxG.random.int(0, availableBG.length - 1)];
+
+                    lastBG = backgrounds.indexOf(randomBG);
+
+                    randomBG.visible = true;
                     bgLobby.visible = false;
 
-                    if (backgrounds[randomBG] == bg13)
-                        {
-                            boyfriend.shader = makeCharShader(-50, -5, 0, 0);
-                            dad.shader = makeCharShader(-50, -5, 0, 0);
-                        }
-                        else
-                        {
-                            boyfriend.shader = makeCharShader(5, -5, 0, 0);
-                            dad.shader = makeCharShader(5, -5, 0, 0);
-                        }
+                    if (randomBG == bg13)
+                    {
+                        boyfriend.shader = makeCharShader(-50, -5, 0, 0);
+                        dad.shader = makeCharShader(-50, -5, 0, 0);
+                    }
+                    else
+                    {
+                        boyfriend.shader = makeCharShader(5, -5, 0, 0);
+                        dad.shader = makeCharShader(5, -5, 0, 0);
+                    }
+
                     trainPassed = true;
                     trainMoving = false;
                     train.visible = false;
@@ -234,7 +245,6 @@ function onEvent(name, v1, v2)
                         train.x = -6250;
                         train.y = trainBaseY;
                         train.visible = true;
-
                         FlxG.sound.play(Paths.music("trainFlushed"), 0.5);
 
                         trainTime = 0;
