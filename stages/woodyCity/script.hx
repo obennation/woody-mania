@@ -383,6 +383,7 @@ function onEvent(name, v1, v2)
                     crowd.shader = makeCharShader(-30, -10, -5, 0);
                 case 'overlayBgAlpha':
                     FlxTween.tween(ough3, {alpha: 0}, 4, {ease: FlxEase.linear});
+                    FlxTween.tween(ough, {alpha: 0}, 4, {ease: FlxEase.linear});
                 case 'rootsOverlay':
                     FlxTween.tween(ough3, {alpha: 0}, 1, {ease: FlxEase.quadOut});
                     FlxTween.tween(black, {alpha: 0.75}, 1, {ease: FlxEase.quadOut});
@@ -430,9 +431,6 @@ function onEvent(name, v1, v2)
                             spotlight2.visible = false;
                         }
                     });
-                case 'transitionCutscene':
-                    FlxTween.tween(ough, {alpha: 0}, 1, {ease: FlxEase.linear});
-                    FlxTween.tween(ough3, {alpha: 0}, 1, {ease: FlxEase.linear});
                 case 'blackScreen':
                     black.alpha = 1;
             }
